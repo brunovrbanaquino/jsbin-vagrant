@@ -1,0 +1,22 @@
+{
+  "env": "development",
+  "url": {
+    "host": "jsbin.nix:3000"
+  },
+  "server": {
+    "logger": "none"
+  },
+  "store": {
+    "adapter": "mysql",
+    "mysql": {
+      "host": "localhost",
+      "user": "jsbin",
+      "password": "jsbin",
+      "database": "jsbin",
+      "charset": "UTF8MB4_GENERAL_CI"
+    }
+  },
+  "session": {
+  	"secret": "secret"
+  }
+}

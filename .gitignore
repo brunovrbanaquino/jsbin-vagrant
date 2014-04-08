@@ -1,0 +1,3 @@
+jsbin/*
+!jsbin/config.local.json
+.vagrant/
