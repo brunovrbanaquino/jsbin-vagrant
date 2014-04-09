@@ -17,6 +17,9 @@
     }
   },
   "session": {
-  	"secret": "secret"
+  	"secret": "secret",
+    "memcached": {
+      "connection": "localhost:11211"
+    }
   }
 }

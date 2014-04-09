@@ -13,3 +13,8 @@ Clone the project and move inside the directory.
 `vagrant reload` required for changes made in the Vagrantfile to take effect.
 
 `vagrant destroy` to erase the machine.
+
+Memcached starts automatically. Some basic commands:
+	`sudo service memcached restart`
+	`sudo service memcached start`
+	`sudo service memcached stop`

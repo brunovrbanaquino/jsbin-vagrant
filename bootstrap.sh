@@ -40,7 +40,7 @@ mysql -uroot -proot_password -e "GRANT ALL PRIVILEGES ON jsbin.* TO jsbin@localh
 mysql -ujsbin -pjsbin jsbin < /var/www/jsbin/jsbin/build/full-db-v3.mysql.sql
 
 # memcache
-# todo
+sudo apt-get install -y memcached
 
 # nginx
 # todo
